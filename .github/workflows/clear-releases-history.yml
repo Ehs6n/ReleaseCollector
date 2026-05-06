@@ -1,0 +1,28 @@
+name: Clear releases history
+
+on:
+  workflow_dispatch:    # Manual trigger only
+
+jobs:
+  Clear-releases-history:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout full history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install git-filter-repo
+        run: pip install git-filter-repo
+
+      - name: Delete releases/ from history
+        run: git filter-repo --path releases/ --invert-paths --force
+
+      - name: Force push rewritten history
+        run: |
+          git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git push origin --force --all
+          git push origin --force --tags
