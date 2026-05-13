@@ -1,21 +1,16 @@
 therealaleph / sni-spoofing-rust
 therealaleph / Shin-TG-V2ray-Collector
 mmarting / resolvalid
-IRNova / Nova-Vless
 IRNova / Nova-Proxy-App
-RevocGG / MasterDnsVPN-AndroidGG
 2dust / v2rayN
 DNSCrypt / dnscrypt-proxy
 my0419 / myvpn-desktop
 AmiRCandy / CandyConnect
 Epodonios / bulk-xray-v2ray-vless-vmess-...-configs
 SamNet-dev / findns
-barry-far / V2ray-Config
 genyleap / GenyConnect
 zero-peak / ZeroOmega
 9xN / auto-ovpn
-mheidari98 / .proxy
-lycheeverse/lychee
 gitleaks/gitleaks
 rapid7/metasploit-framework
 beefproject/beef
