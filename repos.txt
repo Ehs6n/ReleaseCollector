@@ -1,23 +1,34 @@
-therealaleph / sni-spoofing-rust
-therealaleph / Shin-TG-V2ray-Collector
-mmarting / resolvalid
-IRNova / Nova-Proxy-App
-2dust / v2rayN
-DNSCrypt / dnscrypt-proxy
-my0419 / myvpn-desktop
-AmiRCandy / CandyConnect
-Epodonios / bulk-xray-v2ray-vless-vmess-...-configs
-SamNet-dev / findns
-genyleap / GenyConnect
-zero-peak / ZeroOmega
-9xN / auto-ovpn
-gitleaks/gitleaks
-rapid7/metasploit-framework
-beefproject/beef
-sqlmapproject/sqlmap
-iampedii/range-scout-android
-crynta/terax-ai
-genyleap/GenyConnect
-qixing-jk/all-api-hub
-backnotprop/plannotator
-lobehub/lobehub
+#therealaleph repos - all assets
+therealaleph/sni-spoofing-rust
+therealaleph/Shin-TG-V2ray-Collector
+
+#VPN/Proxy tools - platform-specific
+mmarting/resolvalid
+IRNova/Nova-Vless
+IRNova/Nova-Proxy-App
+2dust/v2rayN|windows|linux|macos
+DNSCrypt/dnscrypt-proxy|linux|windows|macos|amd64|arm64
+my0419/myvpn-desktop|windows|linux|macos|AppImage|deb|rpm
+AmiRCandy/CandyConnect|windows|linux|macos|apk
+Epodonios/bulk-xray-v2ray-vless-vmess-...-configs|config|json|txt
+SamNet-dev/findns|linux|windows|macos
+genyleap/GenyConnect|windows|linux|macos|apk
+zero-peak/ZeroOmega|windows|linux|macos
+9xN/auto-ovpn|ovpn|openvpn|linux|windows
+
+#mheidari98 proxy (single repo)
+mheidari98/.proxy
+
+#Security & Tools - binaries
+lycheeverse/lychee|linux|darwin|windows|amd64|arm64
+gitleaks/gitleaks|linux|darwin|windows|amd64|arm64
+rapid7/metasploit-framework|linux|windows|msf|framework
+beefproject/beef|js|html|php
+sqlmapproject/sqlmap|linux|windows|python
+iampedri/range-scout-android|apk|arm64|aarch64
+
+#AI & Dev Tools
+crynta/terax-ai|linux|darwin|windows|amd64|arm64
+qixing-jk/all-api-hub|json|yaml|docker
+backnotprop/plannotator|linux|darwin|windows
+lobehub/lobehub|docker|linux|amd64|arm64
